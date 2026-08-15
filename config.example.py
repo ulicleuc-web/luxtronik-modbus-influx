@@ -1,0 +1,11 @@
+HEATPUMP_IP = "192.168.x.x"
+HEATPUMP_PORT = 502
+MODBUS_UNIT_ID = 1
+
+INFLUX_HOST = "localhost"
+INFLUX_PORT = 8086
+INFLUX_DATABASE = "telegraf"
+INFLUX_USER = "your_user"
+INFLUX_PASSWORD = "your_password"
+
+MQTT_HOST = "localhost"
