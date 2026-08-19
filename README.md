@@ -40,16 +40,19 @@ kWh gespeichert.
 ```bash
 pip3 install -r requirements.txt
 cp config.example.py config.py
+```
 
 ## Beispiel für Cron:
+```text
   */3 * * * * /usr/bin/python3 /pfad/luxtronik_influx.py
-</> Markdown
+```
 
 ## Voraussetzung:
   Wärmepumpe ist für Modbus TCP Zugriffe freigeschaltet
   influxdb Datenbank existiert
 
 ## Elemente im measurement heatpump_energy
+```text
   current_heat
   current_power
   min_power
@@ -59,8 +62,10 @@ cp config.example.py config.py
   power_heating_kwh
   power_hotwater_kwh
   power_total_kwh
+```
     
 ## Beispiel MQTT topics:
+```text
   heatpump/power_total_kwh 8126.1
   heatpump/power_heating_kwh 6378.2
   heatpump/power_hotwater_kwh 1747.9
@@ -70,3 +75,4 @@ cp config.example.py config.py
   heatpump/current_heat_kw 0.0
   heatpump/current_power_kw 0.0
   heatpump/min_power_kw 0.0
+```
