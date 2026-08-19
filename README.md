@@ -43,6 +43,7 @@ cp config.example.py config.py
 
 ## Beispiel für Cron:
   */3 * * * * /usr/bin/python3 /pfad/luxtronik_influx.py
+</> Markdown
 
 ## Voraussetzung:
   Wärmepumpe ist für Modbus TCP Zugriffe freigeschaltet
