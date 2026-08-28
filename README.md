@@ -24,9 +24,9 @@ MQTT veröffentlicht, z. B. zur Verwendung mit Home Assistant.
 | 10100 | Rücklauftemperatur IST |
 | 10101 | Rücklauftemperatur SOLL |
 | 10105 | Vorlauftemperatur IST |
+| 10108 | Aussentemperatur |
 | 10120 | Warmwassertemperatur IST |
 | 10121 | Warmwassertemperatur SOLL |
-| 10108 | Aussentemperatur |
 | 10300 | Aktuelle Heizleistung |
 | 10301 | Aktuelle elektrische Leistung |
 | 10302 | Minimale elektrische Leistung |
@@ -39,7 +39,7 @@ MQTT veröffentlicht, z. B. zur Verwendung mit Home Assistant.
 
 Register 10000–10004 liefern Statuswerte (UINT16)
 
-Register 10100–10105 liefern Temperaturwerte in °C/10 und werden als
+Register 10100–10108 liefern Temperaturwerte in °C/10 und werden als
 °C gespeichert.
 
 Register 10120–10121 liefern Temperaturwerte in °C/10 und werden als
